@@ -2,7 +2,7 @@
 
 <p>
   <strong>Text:</strong>
-  <%= @note.text %>
+  <%= best_in_place @note, :text, :as => :input %>
 </p>
 
 <%= link_to 'Edit', edit_note_path(@note) %> |
