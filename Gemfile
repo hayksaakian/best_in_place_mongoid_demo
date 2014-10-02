@@ -6,7 +6,7 @@ gem 'rails', '4.1.5'
 
 gem 'mongo'
 gem 'mongoid', '~> 4.0.0'
-gem 'best_in_place', '~> 3.0.0.rc1'
+gem 'best_in_place', github: 'bernat/best_in_place'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'

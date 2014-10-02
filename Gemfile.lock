@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/bernat/best_in_place.git
+  revision: d14da00f49256adbe023c245449d8937eb1bee42
+  specs:
+    best_in_place (3.0.0.rc1)
+      actionpack (>= 3.2)
+      railties (>= 3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -28,9 +36,6 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-    best_in_place (3.0.0.rc1)
-      actionpack (>= 3.2)
-      railties (>= 3.2)
     bson (2.3.0)
     builder (3.2.2)
     coffee-rails (4.0.1)
@@ -128,7 +133,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  best_in_place (~> 3.0.0.rc1)
+  best_in_place!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
